@@ -48,9 +48,9 @@ function App() {
 
 
       </Routes>
-      {/* <Footer/> */}
+      <Footer/>
     </BrowserRouter>
   )
 }
 
-export default App
+export default App;
