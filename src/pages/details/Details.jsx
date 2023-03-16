@@ -5,6 +5,8 @@ import Cast from './cast/Cast'
 import './Details.scss'
 import DetailsBanner from './detailsBanner/DetailsBanner'
 import VideoSection from '../details/videosSection/VideosSection'
+import Similar from './carousels/Similar'
+import Recommendation from './carousels/Recommendation'
 
 
 
@@ -17,11 +19,13 @@ const Details = () => {
 
   return (
     <div>
-      <DetailsBanner video={data?.results?.[0] } crew={credits?.crew}/>
-      <Cast data={credits?.cast} loading={creditsLoading}/>
-      <VideoSection data={data} loading={loading}/>
+      <DetailsBanner video={data?.results?.[0]} crew={credits?.crew} />
+      <Cast data={credits?.cast} loading={creditsLoading} />
+      <VideoSection data={data} loading={loading} />
+      <Similar mediaType={mediaType} id={id} />
+      <Recommendation mediaType={mediaType} id={id} />
     </div>
-  )
+  );
 }
 
 export default Details
