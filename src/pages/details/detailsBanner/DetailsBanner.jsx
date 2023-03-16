@@ -66,7 +66,7 @@ const DetailsBanner = ({ video, crew }) => {
                     </div>
                     <div className="subtitle">{data.tagline}</div>
 
-                    <Genres data={_genres} />
+                    <Genres data={_genres}/>
 
                     <div className="row">
                       <CircleRating rating={data.vote_average.toFixed(1)} />
