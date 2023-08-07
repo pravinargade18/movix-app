@@ -1,6 +1,19 @@
 # movix-app
 
 # Website - <em>[Movix](https://movix-net.vercel.app/)</em>
+### How to Run Locally
+Run the below command to clone the repo locally
+```
+git clone https://github.com/pravinargade18/movix-app.git
+``` 
+
+### To run the application, run below commands 
+```
+npm install
+npm run dev
+```
+
+
 ### :rocket:Glimpse :dizzy::dizzy:<br><br>
 ![Screenshot (163)](https://github.com/pravinargade18/movix-app/assets/85402377/11edc835-8e81-416e-b2fd-c97a01a94ebe)
 
@@ -14,14 +27,4 @@
 ![Screenshot (156)](https://github.com/pravinargade18/movix-app/assets/85402377/9452bfd3-80a6-4cd6-b693-3b6c89f7193b)
 ![Screenshot 2023-08-07 235657](https://github.com/pravinargade18/movix-app/assets/85402377/d2f4899a-633b-43b2-8678-803b36844829)
 
-### How to Run Locally
-Run the below command to clone the repo locally
-```
-git clone https://github.com/pravinargade18/movix-app.git
-``` 
 
-### To run the application, run below commands 
-```
-npm install
-npm run dev
-```
